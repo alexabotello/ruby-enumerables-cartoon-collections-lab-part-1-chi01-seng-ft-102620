@@ -17,11 +17,11 @@ end
     #   expect(output).to match(/Hello Bashful!/)
     # end
     
-def list_dwarves(array)
+def list_dwarves(dwarves)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
- array.each_with_index(1) do | element, index |
+ dwarves.each_with_index(1) do | element, index |
 	puts "#{element} is number #{index} in the array"
 end
 end
