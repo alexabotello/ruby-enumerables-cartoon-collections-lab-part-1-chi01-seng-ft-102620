@@ -17,10 +17,6 @@ end
     #   expect(output).to match(/Hello Grumpy!/)
     #   expect(output).to match(/Hello Bashful!/)
     # end
-   def greet_characters(dwarves)
-    dwarves.each do |dwarves|
-   puts "Hello #{dwarves}!"
-end
     
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
