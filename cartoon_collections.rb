@@ -18,8 +18,8 @@ end
     #   expect(output).to match(/Hello Bashful!/)
     # end
    def greet_characters(dwarves)
-     dwarves = ["dopey", "sneezy", "happy", "angry", "doc", "lemonjello", "sleepy" ]
-oppressed_workers.each do |oppressed_worker|
+     dwarves = ["Dopey", "Grumpy", "Bashful"]
+    dwarves.each do |dwarves|
    puts "#{oppressed_worker.capitalize} wants to start a union!"
 end
     
