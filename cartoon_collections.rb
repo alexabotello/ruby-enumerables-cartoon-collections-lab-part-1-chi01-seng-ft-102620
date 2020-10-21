@@ -2,10 +2,9 @@ def greet_characters(dwarves)
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
-output = []
-  do greet_characters.each {|element| print element, "Hello" }
-dwarves
-  end   
+  dwarves.each do |dwarves|
+   puts "Hello #{dwarves}!"
+end
 end
     # output = capture_stdout do
     #     greet_characters(dwarves)
