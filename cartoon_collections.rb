@@ -18,7 +18,10 @@ end
     #   expect(output).to match(/Hello Bashful!/)
     # end
    def greet_characters(dwarves)
-     
+     dwarves = ["dopey", "sneezy", "happy", "angry", "doc", "lemonjello", "sleepy" ]
+oppressed_workers.each do |oppressed_worker|
+   puts "#{oppressed_worker.capitalize} wants to start a union!"
+end
     
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
