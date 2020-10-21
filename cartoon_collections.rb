@@ -21,7 +21,7 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  a = [11,22,31,224,44].each.with_index { |val,index| puts "index: #{index} for #{val}" if val < 30}
-index: 0 for 11
-index: 1 for 22
+ array.each_with_index do | element, index |
+	puts "#{element} is number #{index} in the array"
+end
 end
